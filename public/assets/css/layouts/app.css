@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+html, body{
+    background-color: rgb(121, 31, 205);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Lobster', cursive; */
+    position: relative;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    font-family: 'Lobster', cursive;
+    background-color: #fff;
+    border-radius:  0 calc(100% - 70px);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 1.3rem;
+}
+
+/* login space */
+
+.base-form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem 2rem 2rem 2rem;
+    border-radius: 10px;
+}
+
+.base-form form{
+    width: 100%;
+}
+.base-form .header{
+    border-bottom: 1px solid rgb(242, 228, 249);
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.base-form form input{
+    padding: 10px 0  10px 10px;
+    background: rgb(245, 234, 250);
+    border-radius: 5px;
+    border: 1px solid rgb(242, 228, 249);
+    outline: none;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.base-form form .form-section.row-group input{
+    width: 47%;
+}
+
+.base-form form .form-section.row-column {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 10px - 2px);
+}
+.base-form form .form-section.row-column input{
+    margin-bottom: 20px;
+}
+.base-form form .form-section.row-column input:last-child{
+    margin-bottom: 0;
+}
+
+.base-form form input[type=submit]{
+    width: 100%;
+    margin: auto;
+    border-radius: none;
+    background: rgb(121, 31, 205);
+    color: #fff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.base-form form input[type=submit]:hover{
+    background: rgb(80, 9, 147);
+}
+
+/* register space */
+
+#signup-form{
+    width: 400px;
+}
+
+
+
