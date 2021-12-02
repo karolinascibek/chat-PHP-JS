@@ -32,6 +32,9 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Login::index');
+$routes->get('/signup', 'SignUp::index');
+$routes->get('/chat', 'Chat::index');
+$routes->get('/chat/(:alphanum)', 'Chat::sendMessage');
 
 /*
  * --------------------------------------------------------------------

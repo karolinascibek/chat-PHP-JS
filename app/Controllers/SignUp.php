@@ -7,6 +7,6 @@ class SignUp extends BaseController
     public function index()
     {
         $data['title'] = "hellow Word - Sign up page";
-        return view('app/SignUp/sign-up', $data);
+        return view('app/sign-up/sign-up', $data);
     }
 }
