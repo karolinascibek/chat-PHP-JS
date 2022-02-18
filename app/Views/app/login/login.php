@@ -1,31 +1,21 @@
-<?= $this->extend('layouts/app') ?>
+<?php $this->extend("app/default") ?>
 
+<?php $this->section("content") ?>
 
-<?= $this->section('content') ?>
+<section id="login-section" class="bg-image">
 
-    <div id="signup-form" class='base-form'>
-        <div class="header">
-            <h1>Zaloguj się</h1>
+    <form id="login-form">
+        <header>
+            <h1>Witaj! Dołacz do czatu</h1>
+            <h2>Zaloguj się</h1>
+        </header>
+        <div class="group-form-column">
+            <input type="text" name="email" placeholder="email">
+            <input type="text" name="password" placeholder="haslo" id="">
         </div>
-        <form action="#" metod="POST">
-            <div class="form-section row-column">
-                <input type="text" placeholder="email">
-                <input type="text" placeholder="hasło">
-            </div>
-            <div class="form-section">
-                 <input type="submit" value="Zaloguj się">
-            </div>
-        </form>
-        <div>
-            <p> Masz juz konta? <a href="">Zarejestruj się</a> </p>
-        </div>
-    </div>
+        <input type="submit" value="Zaloguj się" name="submit">
+        <p>Nie masz konto? <a href="<?= base_url() . "/signup" ?>"> Zarejestruj się </a></p>
+    </form>
 
-<?= $this->endSection() ?>
-
-<style>
-
-
-
-
-</style>
+</section>
+<?php $this->endsection() ?>

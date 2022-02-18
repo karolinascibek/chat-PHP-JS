@@ -25,7 +25,7 @@
             </div>
         </form>
         <div>
-            <p> Nie masz konta? <a href="">Zaloguj się</a> </p>
+            <p> Masz już konto? <a href="<?php echo base_url().'/login'?>" >Zaloguj się</a> </p>
         </div>
     </div>
 

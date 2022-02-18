@@ -1,0 +1,15 @@
+:root {
+    --default-baground-color: white;
+    --default-baground-form-color: white;
+    --default-submit-btn-color: #BD6C3A;
+    --default-submit-btn-hover-color: #8c502a;
+    --default-btn-font-color: white;
+    --default-input-text-color: #5F5F5F;
+    --default-border-color: #d7d5d5;
+    --default-link-color: #41a3d8;
+
+    --font-color-grey: rgb(142, 142, 142); 
+    --font-color-black: rgb(0, 0, 0); 
+    --font-color-white: rgb(255, 255, 255); 
+    --browm: #BD6C3A;
+}
