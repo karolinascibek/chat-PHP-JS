@@ -9,7 +9,7 @@
                 <div class="user-image">
                     <img class="user-photo" src="<?= base_url() . "/uploads/images/img.jpg" ?>" alt="">
                 </div>
-                <header class="user-header">
+                <header class="user-profile-header">
                     <p>Witaj Karo</p>
                 </header>
 
@@ -22,8 +22,10 @@
 
         <section id="user-profile-search-section">
             <div class="user-search">
-                <input class="input-search" type="text" name="serach" id="">
-                <button><i class="fas fa-search"></i></button>
+                <div class="form-user-search">
+                    <input class="input-search" type="text" name="serach" id="" placeholder="szukaj...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
             </div>
         </section>
 
